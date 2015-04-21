@@ -6,6 +6,8 @@ Press [Enter] key to start the installation.
 
 Also, if your system has the architecture of 64-bit, copy and replace all 'i386' occurences in this file with 'amd64'."
 
+sudo apt-get install openssh-server
+
 sudo apt-get install openjdk-7-jdk
 
 sudo chmod +x -R $HOME/Desktop/hadoop
