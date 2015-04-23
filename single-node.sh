@@ -4,7 +4,7 @@ A user called hduser of the group hadoop will be created automatically.
 Use the password 'gec' at all password prompts. You can later change the password of the user.
 Press [Enter] key to start the installation.
 
-Also, if your system has the architecture of 64-bit, copy and replace all 'i386' occurences in this file with 'amd64'."
+Also, if your system has the architecture of 64-bit, exit the script by pressing 'CTRL + C' and then copy and replace all 'i386' occurences in this file with 'amd64' and again execute the script."
 
 sudo apt-get install openssh-server
 
